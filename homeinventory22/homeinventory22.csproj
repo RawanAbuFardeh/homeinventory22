@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F131D28-07AD-4747-A825-5D47B2A7C460}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>homeinventory22</RootNamespace>
+    <AssemblyName>homeinventory22</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bath essentials.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bath essentials.Designer.cs">
+      <DependentUpon>Bath essentials.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cart.Designer.cs">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cooking Essentials.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooking Essentials.Designer.cs">
+      <DependentUpon>Cooking Essentials.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home electronics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home electronics.Designer.cs">
+      <DependentUpon>Home electronics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Snacks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Snacks.Designer.cs">
+      <DependentUpon>Snacks.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Bath essentials.resx">
+      <DependentUpon>Bath essentials.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cart.resx">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooking Essentials.resx">
+      <DependentUpon>Cooking Essentials.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home electronics.resx">
+      <DependentUpon>Home electronics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Snacks.resx">
+      <DependentUpon>Snacks.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Download Assortment Of Nuts In Ceramic Plates_ Cashew, Hazelnuts, Walnuts, Pistachio, Pecans, Pine Nuts, Peanut, Raisins.top View for free" />
+    <None Include="Resources\Pastel Purple - Lilac - Lavender - Solid Color Throw Pillow by MultiFascinated.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Avatar Icon Profile Icon Member Login Vector Isolated, Login Icons, Profile Icons, Avatar Icons PNG and Vector with Transparent Background for Free Download.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Premium Photo _ Empty shopping cart on pink background_ shopping, shopping online concept.,copy space, top view" />
+    <None Include="Resources\profile.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cooking Icons.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Premium Vector _ Soap with froth bubble   icon illustration_ healthcare and medical icon concept white isolated %281%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5d4c178b-7850-4c10-adc1-703c3d9f20de.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light pink icon.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\How to Roast Beets _ Vanilla And Bean.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\How to Roast Beets _ Vanilla And Bean1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dr_ Gundry%27s Savory and Satisfying Broccoli Cheddar Quiche.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Danish Ballhead Cabbage Seeds - Cabbage Ukrainian Autumn Seeds - Heirloom -  Vegetable Seeds - NON GMO %281%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carrots_.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Greens.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aubergines.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Garlic Bulbs by Susan Findlay.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fresh lettuce leaves.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Onion With Cut In Half Isolated On White Background_ Stock Image - Image of background, plant_ 105173215.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NuMex Joe E_ Parker Chili Peppers.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful Make-able Recipes _ The Modern Proper.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\These Are Healthiest Vegetables You Can Eat, According to a Nutritionist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Download premium image of Corn on the cob on a rigid surface by Monika about corn, corn cob, food healthy white background herbs, kitchen background, and aerial 1225252.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Creamy Mixed Mushroom and Brie Soup.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PEA SOUP.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hand Soap, Sanitizer &amp; PocketBac.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 Best Moisturizing Products for Dry Hair.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tonymoly - Antibacteria Cotton Swabs %28300pcs%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The 13 Whitening Toothpastes Dentists Actually Recommend.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dove For Women Original Anti-Perspirant Cream Stick 40Ml.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Baby Dove Lotion Rich.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Listerine Cool Mint Mouth Wash - 250ml.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13 Sun Creams That Work On All Skin Tones - No Chalky Residue In Sight.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mini Lighted Digital Car Clock Auto Car Truck Dashboard Date Time Calendar Black Vehicle Electronic Digital Clock.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Haden Silt Green Dorchester Microwave + Reviews _ Crate and Barrel.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Samsung 32_ 720p HD M4500B Series 4 Smart Television - UN32M4500BFXZC.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 Golden Rules For Living The Laptop Lifestyle.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 Best 35mm Film Cameras for Beginners %28Available in 2021!%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bose SoundLink Flex.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NEWYES 10Inch Bluetooth Archive Synchronize Writing Tablet save Drawing LCD Office Family Graffiti Toy Gift.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apple AirPods In-Ear Wireless Headphones with Standard Charging Case %28Gen 2%29 - White %28MV7N2AM-A%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Peach Hearts Premium Candy.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chocolate Espresso Snickerdoodles %281%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Air Fryer Potato Chips.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOMEMADE CRACKERS AND SUPER BOWL SNACK IDEAS.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flat Lay Bowls With Dried Fruits.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\How to Make Stovetop Popcorn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Homemade Soft Pretzels with Three Cheese Dip.jfif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

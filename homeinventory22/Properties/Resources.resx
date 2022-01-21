@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Carrots_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carrots_.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chocolate Espresso Snickerdoodles (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chocolate Espresso Snickerdoodles (1).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Greens" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Greens.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Download premium image of Corn on the cob on a rigid surface by Monika about corn, corn cob, food healthy white background herbs, kitchen background, and aerial 1225252" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Download premium image of Corn on the cob on a rigid surface by Monika about corn, corn cob, food healthy white background herbs, kitchen background, and aerial 1225252.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Garlic Bulbs by Susan Findlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Garlic Bulbs by Susan Findlay.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 Best 35mm Film Cameras for Beginners (Available in 2021!)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 Best 35mm Film Cameras for Beginners (Available in 2021!).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (3).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cooking Icons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cooking Icons.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fresh lettuce leaves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fresh lettuce leaves.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Apple AirPods In-Ear Wireless Headphones with Standard Charging Case (Gen 2) - White (MV7N2AM-A)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Apple AirPods In-Ear Wireless Headphones with Standard Charging Case (Gen 2) - White (MV7N2AM-A).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light pink icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Light pink icon.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profile.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Creamy Mixed Mushroom and Brie Soup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Creamy Mixed Mushroom and Brie Soup.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red Onion With Cut In Half Isolated On White Background_ Stock Image - Image of background, plant_ 105173215" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Red Onion With Cut In Half Isolated On White Background_ Stock Image - Image of background, plant_ 105173215.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Samsung 32_ 720p HD M4500B Series 4 Smart Television - UN32M4500BFXZC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Samsung 32_ 720p HD M4500B Series 4 Smart Television - UN32M4500BFXZC.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hand Soap, Sanitizer &amp; PocketBac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hand Soap, Sanitizer &amp; PocketBac.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Listerine Cool Mint Mouth Wash - 250ml" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Listerine Cool Mint Mouth Wash - 250ml.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flat Lay Bowls With Dried Fruits" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flat Lay Bowls With Dried Fruits.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PEA SOUP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PEA SOUP.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mini Lighted Digital Car Clock Auto Car Truck Dashboard Date Time Calendar Black Vehicle Electronic Digital Clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mini Lighted Digital Car Clock Auto Car Truck Dashboard Date Time Calendar Black Vehicle Electronic Digital Clock.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5d4c178b-7850-4c10-adc1-703c3d9f20de" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5d4c178b-7850-4c10-adc1-703c3d9f20de.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Premium Photo _ Empty shopping cart on pink background_ shopping, shopping online concept" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Premium Photo _ Empty shopping cart on pink background_ shopping, shopping online concept.,copy space, top view;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="How to Make Stovetop Popcorn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\How to Make Stovetop Popcorn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEWYES 10Inch Bluetooth Archive Synchronize Writing Tablet save Drawing LCD Office Family Graffiti Toy Gift" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEWYES 10Inch Bluetooth Archive Synchronize Writing Tablet save Drawing LCD Office Family Graffiti Toy Gift.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="These Are Healthiest Vegetables You Can Eat, According to a Nutritionist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\These Are Healthiest Vegetables You Can Eat, According to a Nutritionist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Premium Vector _ Soap with froth bubble   icon illustration_ healthcare and medical icon concept white isolated (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Premium Vector _ Soap with froth bubble   icon illustration_ healthcare and medical icon concept white isolated (1).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="How to Roast Beets _ Vanilla And Bean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\How to Roast Beets _ Vanilla And Bean.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dove For Women Original Anti-Perspirant Cream Stick 40Ml" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dove For Women Original Anti-Perspirant Cream Stick 40Ml.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peach Hearts Premium Candy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peach Hearts Premium Candy.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13 Sun Creams That Work On All Skin Tones - No Chalky Residue In Sight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13 Sun Creams That Work On All Skin Tones - No Chalky Residue In Sight.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bose SoundLink Flex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bose SoundLink Flex.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 Golden Rules For Living The Laptop Lifestyle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 Golden Rules For Living The Laptop Lifestyle.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Air Fryer Potato Chips" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Air Fryer Potato Chips.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Haden Silt Green Dorchester Microwave + Reviews _ Crate and Barrel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Haden Silt Green Dorchester Microwave + Reviews _ Crate and Barrel.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aubergines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aubergines.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Baby Dove Lotion Rich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Baby Dove Lotion Rich.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The 13 Whitening Toothpastes Dentists Actually Recommend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The 13 Whitening Toothpastes Dentists Actually Recommend.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tonymoly - Antibacteria Cotton Swabs (300pcs)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tonymoly - Antibacteria Cotton Swabs (300pcs).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOMEMADE CRACKERS AND SUPER BOWL SNACK IDEAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOMEMADE CRACKERS AND SUPER BOWL SNACK IDEAS.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar Icon Profile Icon Member Login Vector Isolated, Login Icons, Profile Icons, Avatar Icons PNG and Vector with Transparent Background for Free Download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar Icon Profile Icon Member Login Vector Isolated, Login Icons, Profile Icons, Avatar Icons PNG and Vector with Transparent Background for Free Download.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Download Assortment Of Nuts In Ceramic Plates_ Cashew, Hazelnuts, Walnuts, Pistachio, Pecans, Pine Nuts, Peanut, Raisins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Download Assortment Of Nuts In Ceramic Plates_ Cashew, Hazelnuts, Walnuts, Pistachio, Pecans, Pine Nuts, Peanut, Raisins.top View for free;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Best Moisturizing Products for Dry Hair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Best Moisturizing Products for Dry Hair.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="How to Roast Beets _ Vanilla And Bean1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\How to Roast Beets _ Vanilla And Bean1.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pastel Purple - Lilac - Lavender - Solid Color Throw Pillow by MultiFascinated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pastel Purple - Lilac - Lavender - Solid Color Throw Pillow by MultiFascinated.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NuMex Joe E_ Parker Chili Peppers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NuMex Joe E_ Parker Chili Peppers.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beautiful Make-able Recipes _ The Modern Proper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beautiful Make-able Recipes _ The Modern Proper.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Danish Ballhead Cabbage Seeds - Cabbage Ukrainian Autumn Seeds - Heirloom -  Vegetable Seeds - NON GMO (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Danish Ballhead Cabbage Seeds - Cabbage Ukrainian Autumn Seeds - Heirloom -  Vegetable Seeds - NON GMO (1).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dr_ Gundry's Savory and Satisfying Broccoli Cheddar Quiche" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dr_ Gundry's Savory and Satisfying Broccoli Cheddar Quiche.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Homemade Soft Pretzels with Three Cheese Dip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Homemade Soft Pretzels with Three Cheese Dip.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
